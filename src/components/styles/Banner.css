@@ -1,0 +1,201 @@
+.banner-container-wrapper {
+  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  display: flex;
+  height: 100vh;
+}
+
+.banner-container {
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  display: inline-flex;
+  flex: 1;
+}
+
+.animate-container {
+  display: block;
+  width: 50%;
+}
+
+.intro-text {
+  color: lightgray;
+  font-size: 2rem;
+  margin-left: 10rem;
+}
+
+.myname {
+  color: #fff;
+  font-size: 5rem;
+  margin-left: 10rem;
+  letter-spacing: 0.5rem;
+}
+
+.typed-text {
+  font-size: 3rem;
+  color: #97ffff;
+}
+
+.banner-container > p {
+  margin-left: 10rem;
+  color: #fff;
+  font-size: 3rem;
+}
+
+.banner-btns {
+  margin-left: 10rem;
+  margin-top: 32px;
+}
+
+.banner-btns .btn {
+  margin: 6px;
+}
+
+.fa-file-pdf {
+  margin-left: 4px;
+}
+
+.two-social-media-container {
+  margin-left: 10rem;
+}
+
+@media screen and (max-width: 1280px) {
+  .animate-container {
+    display: none;
+  }
+
+  .intro-text {
+    font-size: 1.5rem;
+    margin-left: 5rem;
+  }
+
+  .myname {
+    font-size: 4.5rem;
+    margin-left: 5rem;
+    letter-spacing: 0rem;
+  }
+
+  .typed-text {
+    font-size: 2.25rem;
+  }
+
+  .banner-container > p {
+    margin-left: 5rem;
+    font-size: 2.25rem;
+  }
+
+  .banner-btns {
+    align-self: flex-start;
+    margin-left: 5rem;
+    margin-top: 24px;
+  }
+
+  .banner-btns .btn {
+    margin: 4.5px;
+  }
+
+  .two-social-media-container {
+    margin-left: 5rem;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .intro-text {
+    font-size: 1.3rem;
+    margin-left: 5rem;
+    align-self: flex-start;
+  }
+
+  .myname {
+    font-size: 3.3rem;
+    margin-left: 5rem;
+    align-self: flex-start;
+    letter-spacing: 0rem;
+  }
+
+  .typed-text {
+    font-size: 1.8rem;
+  }
+
+  .banner-container > p {
+    margin-left: 5rem;
+    align-self: flex-start;
+    font-size: 1.8rem;
+  }
+
+  .banner-btns {
+    align-self: flex-start;
+    margin-left: 5rem;
+    margin-top: 24px;
+  }
+
+  .banner-btns .btn {
+    margin: 4.5px;
+  }
+
+  .two-social-media-container {
+    margin-left: 5rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .intro-text {
+    font-size: 1rem;
+    margin-left: 1rem;
+    align-self: flex-start;
+  }
+
+  .myname {
+    font-size: 3rem;
+    margin-left: 1rem;
+    align-self: flex-start;
+    letter-spacing: 0rem;
+  }
+
+  .typed-text {
+    font-size: 1.5rem;
+  }
+
+  .banner-container > p {
+    margin-left: 1rem;
+    align-self: flex-start;
+    font-size: 1.5rem;
+  }
+
+  .banner-btns {
+    align-self: flex-start;
+    margin-left: 1rem;
+    margin-top: 24px;
+  }
+
+  .banner-btns .btn {
+    margin: 4.5px;
+  }
+
+  .two-social-media-container {
+    margin-left: 1rem;
+  }
+}
+
+.social-media-list {
+  white-space: nowrap;
+}
+
+.two-social-media-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-media-icon {
+  display: inline-block;
+  margin: 15px;
+}
+
+.social-media-icon:hover {
+  transform: scale(1.2);
+  transition: all 0.2s ease-out;
+}
+
+.social-media-icon a {
+  font-size: 30px;
+  color: white;
+}

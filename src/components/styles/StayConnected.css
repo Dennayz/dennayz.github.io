@@ -1,0 +1,33 @@
+.stay-connected-container {
+  padding: 4rem 4rem 0rem 4rem;
+  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  text-align: center;
+}
+
+.stay-connected-header {
+  letter-spacing: 3px;
+  text-align: center;
+  padding-bottom: 3rem;
+  color: white;
+}
+
+.bottom-to-top {
+  padding: 2rem;
+  text-align: center;
+}
+
+.go-top {
+  cursor: pointer;
+}
+
+.go-top:hover {
+  transform: scale(1.2);
+  transition: all 0.2s ease-out;
+  opacity: 0.8;
+}
+
+.fa-angle-double-up {
+  margin-left: 0.5rem;
+  font-size: 2.3rem;
+  color: white;
+}

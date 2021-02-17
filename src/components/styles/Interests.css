@@ -1,0 +1,57 @@
+.interests-container {
+  padding: 4rem 2rem 4rem 2rem;
+  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  text-align: center;
+}
+
+.interests-header {
+  letter-spacing: 3px;
+  text-align: center;
+  font-size: 3rem;
+  padding-bottom: 2rem;
+  color: white;
+}
+
+.info-container {
+  color: white;
+  display: flex;
+  text-align: center;
+  flex-flow: column;
+  align-items: center;
+  max-width: 860px;
+  width: 33%;
+  display: inline-flex;
+  flex: 1;
+  border-right: 2px solid #97ffff;
+}
+
+.info-container:last-child {
+  border-right: none;
+}
+
+.info-container > h2 {
+  padding: 1rem;
+  letter-spacing: 3px;
+  padding-bottom: 2rem;
+}
+
+.info-container > ul {
+  text-align: left;
+  vertical-align: middle;
+  padding-left: 2rem;
+  padding-bottom: 4rem;
+}
+
+@media screen and (max-width: 960px) {
+  .info-container {
+    padding-top: 2rem;
+    float: none;
+    margin-right: 0;
+    width: 100%;
+    border: 0;
+  }
+  .info-container > ul {
+    vertical-align: middle;
+    border-bottom: 2px solid #97ffff;
+  }
+}

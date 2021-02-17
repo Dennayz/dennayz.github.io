@@ -1,0 +1,115 @@
+.about-container {
+  padding: 4rem;
+  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  text-align: center;
+}
+
+.about-header {
+  letter-spacing: 3px;
+  text-align: center;
+  font-size: 3rem;
+  padding-bottom: 2rem;
+  color: white;
+}
+
+.about-container-info {
+  color: white;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  max-width: 1120px;
+  width: 50%;
+  display: inline-flex;
+  flex: 1;
+}
+
+.about-container-info > h2 {
+  letter-spacing: 3px;
+  padding-bottom: 2rem;
+}
+
+.about-container-info > p {
+  padding-top: 1rem;
+  text-align: center;
+  font-size: 1rem;
+  margin: 0 1rem;
+  padding-bottom: 2rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 1.5;
+}
+
+.fa-camera-retro,
+.fa-code,
+.fa-spotify,
+.fa-book-reader,
+.fa-basketball-ball,
+.fa-hamburger {
+  margin-left: 0.5rem;
+  font-size: 2.3rem;
+}
+
+.small-interests-list {
+  padding-top: 55px;
+  text-align: center;
+}
+.skills-container,
+.small-interests-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.skills-icon,
+.small-interests-icon {
+  display: inline-flex;
+  margin: 1em;
+}
+
+.icon-description {
+  visibility: hidden;
+  display: block;
+}
+
+.icons8-link {
+  color: white;
+}
+
+.skills-icon:hover .icon-description {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: all 0.2s ease-out;
+  visibility: visible;
+}
+
+@media screen and (max-width: 1679px) {
+  .about-container-info {
+    padding-top: 3rem;
+    float: none;
+    margin-right: 0;
+    width: 100%;
+    border: 0;
+    padding-bottom: 3rem;
+    border-bottom: 2px solid #97ffff;
+  }
+
+  .about-container-info:last-child {
+    border-bottom: none;
+  }
+}
+
+@media screen and (max-width: 383px) {
+  .skills-icon {
+    margin: 0;
+  }
+}
+/* @media screen and (max-width: 960px) {
+  .about-container-info {
+    padding-top: 2rem;
+    float: none;
+    margin-right: 0;
+    width: 100%;
+    border: 0;
+  }
+} */

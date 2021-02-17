@@ -1,0 +1,23 @@
+.slide-container {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 860px;
+}
+
+.each-slide {
+  position: relative;
+}
+
+@media screen and (max-width: 960px) {
+  .slide-container {
+    padding: 0rem;
+    margin: 0 auto;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .caption {
+    font-size: 10px;
+  }
+}
