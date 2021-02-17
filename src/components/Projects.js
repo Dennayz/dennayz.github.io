@@ -28,7 +28,7 @@ function Projects() {
               text="You're looking at it! This is my personal portfolio page all about me! You can find all my projects here that I've built using different technical skills."
               tech="HTML, CSS, JavaScript, React"
               label="Personal Website"
-              path="https://github.com/Dennayz/React-Portfolio"
+              path="https://github.com/Dennayz/dennayz.github.io"
             />
           </ul>
           <ul className="cards__items">
