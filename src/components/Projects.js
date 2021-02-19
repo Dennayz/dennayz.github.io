@@ -20,8 +20,8 @@ function Projects() {
               src="images/project-2.png"
               text="An elegant data visualization web app to display your favourite professor's important data such as top ratings, difficulty levels, and top comments."
               tech="React, Charts.js, Flask, Beautiful Soup"
-              label="RMP Visualizer"
-              path="https://github.com/Dennayz/RMP_Visualization"
+              label="Rate My Professors Visualizer"
+              path="https://github.com/Dennayz/RateMyProfessors_Visualization"
             />
             <CardItem
               src="images/project-3.png"
