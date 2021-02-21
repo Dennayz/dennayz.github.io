@@ -8,7 +8,7 @@ import Banner from "../Banner";
 import Navbar from "../Navbar";
 import AlgorithmsSection from "../AlgorithmsSection";
 
-function Home() {
+const Home = () => {
   return (
     <>
       <Navbar />
@@ -20,6 +20,6 @@ function Home() {
       <StayConnected />
     </>
   );
-}
+};
 
 export default Home;

@@ -1,6 +1,6 @@
 import React from "react";
 
-function SocialMedia(props) {
+const SocialMedia = (props) => {
   return (
     <>
       <li className="social-media-icon">
@@ -10,6 +10,6 @@ function SocialMedia(props) {
       </li>
     </>
   );
-}
+};
 
 export default SocialMedia;

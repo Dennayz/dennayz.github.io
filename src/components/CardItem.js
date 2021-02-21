@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-function CardItem(props) {
+const CardItem = (props) => {
   const innerBody = (
     <>
       <figure className="cards__item__pic-wrap" data-category={props.label}>
@@ -46,6 +46,6 @@ function CardItem(props) {
       </li>
     </>
   );
-}
+};
 
 export default CardItem;

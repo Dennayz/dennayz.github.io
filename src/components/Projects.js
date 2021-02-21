@@ -2,7 +2,7 @@ import React from "react";
 import "./styles/Projects.css";
 import CardItem from "./CardItem.js";
 
-function Projects() {
+const Projects = () => {
   return (
     <div className="cards" id="projects">
       <h1>Projects</h1>
@@ -58,6 +58,6 @@ function Projects() {
       </div>
     </div>
   );
-}
+};
 
 export default Projects;

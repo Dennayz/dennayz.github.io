@@ -3,7 +3,7 @@ import "./styles/Navbar.css";
 import { Link } from "react-scroll";
 import { animateScroll as scroll } from "react-scroll";
 
-function Navbar() {
+const Navbar = () => {
   const [click, setClick] = useState(false);
   const [navBar, setNavBar] = useState(false);
 
@@ -104,6 +104,6 @@ function Navbar() {
       </nav>
     </>
   );
-}
+};
 
 export default Navbar;

@@ -1,12 +1,12 @@
 import React from "react";
 import ProjectTalk from "../ProjectTalk";
 
-function DataPrepProject() {
+const DataPrepProject = () => {
   return (
     <>
       <ProjectTalk />
     </>
   );
-}
+};
 
 export default DataPrepProject;

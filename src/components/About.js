@@ -4,7 +4,7 @@ import "./styles/About.css";
 import { Button } from "./Button";
 import { frontendIcons, backendIcons } from "./Icons";
 
-function About() {
+const About = () => {
   return (
     <div id="about-me" className="about-container">
       <h1 className="about-header">About Me</h1>
@@ -94,6 +94,6 @@ function About() {
       </div>
     </div>
   );
-}
+};
 
 export default About;

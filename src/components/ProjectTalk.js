@@ -3,7 +3,7 @@ import "./styles/ProjectTalk.css";
 import SlideShow from "./SlideShow";
 import { Button } from "./Button";
 
-function ProjectTalk() {
+const ProjectTalk = () => {
   return (
     <div className="project-talk-container">
       <h1 className="project-talk-header">DataPrep Project</h1>
@@ -64,6 +64,6 @@ function ProjectTalk() {
       </div>
     </div>
   );
-}
+};
 
 export default ProjectTalk;
