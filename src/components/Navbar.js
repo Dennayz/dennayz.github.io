@@ -73,7 +73,7 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <Link
-                to="interests"
+                to="algorithmssection"
                 offset={-50}
                 spy={true}
                 className="nav-links"
@@ -82,7 +82,7 @@ function Navbar() {
                 duration={1000}
                 activeClass="active"
               >
-                Interests
+                Algorithms
               </Link>
             </li>
             <li className="nav-item">

@@ -1,0 +1,143 @@
+.codechallenges-container {
+  padding: 4rem 2rem 4rem 2rem;
+  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  text-align: center;
+}
+
+.codechallenges-container > h1 {
+  letter-spacing: 3px;
+  text-align: center;
+  font-size: 3rem;
+  padding-bottom: 2rem;
+  color: white;
+}
+
+.codechallenge-cards__container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  max-width: 1620px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.codechallenge-cards__wrapper {
+  position: relative;
+  padding: 2rem;
+  gap: 1.5rem;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  display: inline-flex;
+  flex: 1;
+  position: relative;
+}
+
+.codechallenge-card-item {
+  background-color: rgb(36, 41, 56);
+  position: relative;
+  padding: 2rem;
+  gap: 1.5rem;
+  display: flex;
+  text-align: center;
+  flex-flow: column;
+  max-width: 1260px;
+  display: inline-flex;
+  flex: 1;
+  border-radius: 11px;
+  margin: 0 1rem;
+  height: 400px;
+  width: 400px;
+}
+
+.codechallenge-card-item > p {
+  font-size: 0.9rem;
+  text-align: left;
+  color: #8892b0;
+}
+
+.codechallenge-card-item:hover {
+  transform: scale(1.02);
+}
+
+.algorithm-title {
+  font-family: "Calibre", "San Francisco", "SF Pro Text", -apple-system,
+    system-ui, sans-serif;
+  text-align: left;
+  color: #97ffff;
+}
+.resp-status {
+  float: left;
+  font-size: 2.5rem;
+}
+
+.resp-status-right {
+  position: relative;
+  top: 11px;
+  font-size: 1.8rem;
+  float: right;
+  color: #8892b0;
+}
+
+.resp-status-right:hover {
+  cursor: pointer;
+  -webkit-text-stroke: 2px #97ffff;
+  transition: all 0.5s ease;
+}
+
+.status-label {
+  text-align: left;
+  font-size: 1.1rem;
+  text-decoration: underline;
+  color: #ccd6f6;
+}
+
+.algorithm-tech-stack {
+  margin-top: 2rem;
+  text-align: left;
+  color: #97ffff;
+}
+
+@media only screen and (max-width: 1470px) {
+  .codechallenge-card-item {
+    margin-bottom: 2rem;
+  }
+}
+
+@media only screen and (max-width: 1423px) {
+  .codechallenges-container {
+    padding: 4rem 0 0 0;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .codechallenge-card-item {
+    display: flex;
+  }
+
+  .codechallenge-cards__wrapper {
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 446px) {
+  .codechallenge-card-item {
+    height: 400px;
+    width: 350px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .codechallenge-card-item {
+    height: 400px;
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  .codechallenge-card-item {
+    height: 380px;
+    width: 280px;
+  }
+}
