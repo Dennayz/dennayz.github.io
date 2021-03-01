@@ -19,7 +19,7 @@ const Projects = () => {
             <CardItem
               src="images/project-2.png"
               text="An elegant data visualization web app to display your favourite professor's important data such as top ratings, difficulty levels, and top comments."
-              tech="React, Chart.js, Flask, Beautiful Soup, MYSQL"
+              tech="React, Chart.js, Flask, Beautiful Soup, MySQL"
               label="Rate My Professors Visualizer"
               path="https://github.com/Dennayz/RateMyProfessors_Visualization"
             />
