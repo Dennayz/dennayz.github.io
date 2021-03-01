@@ -12,7 +12,7 @@ const Projects = () => {
             <CardItem
               src="images/project-1.png"
               text="Data preparation software from end to end (e2e) to clean, refine and transform raw data for data processing and analysis."
-              tech="React, Redux, Apache Spark, Java Jersey, MYSQL"
+              tech="React, Redux, Apache Spark, Java Jersey, MySQL"
               label="DataPrep"
               path="/DataPrep"
             />
@@ -49,7 +49,7 @@ const Projects = () => {
             <CardItem
               src="images/project-6.png"
               text="Project coming soon"
-              tech="React, Express, Node.js, MYSQL"
+              tech="React, Express, Node.js, MySQL"
               label="New Project"
               path="https://github.com/Dennayz/"
             />
