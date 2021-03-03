@@ -35,7 +35,7 @@
 }
 
 .codechallenge-card-item {
-  background-color: rgb(36, 41, 56);
+  background-color: rgb(36, 41, 55, 0.2);
   position: relative;
   padding: 2rem;
   gap: 1.5rem;
