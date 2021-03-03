@@ -6,7 +6,9 @@ import { Button } from "./Button";
 const ProjectTalk = () => {
   return (
     <div className="project-talk-container">
-      <h1 className="project-talk-header">DataPrep Project</h1>
+      <h1 className="project-talk-header">
+        Smart Analytics - DataPrep Project
+      </h1>
       <div className="wrap">
         <div className="project-description-container">
           <h2 className="project-description-header">Description</h2>
@@ -31,6 +33,10 @@ const ProjectTalk = () => {
             <li>
               Managing back-end services with RESTful API, serializing and
               deserializing JSON using Java
+            </li>
+            <li>
+              Contributed to architecting the back-end code base and utilized
+              proper folder structures
             </li>
             <li>
               Applied database denormalization for efficient querying and

@@ -11,9 +11,9 @@ const Projects = () => {
           <ul className="cards__items">
             <CardItem
               src="images/project-1.png"
-              text="Data preparation software from end to end (e2e) to clean, refine and transform raw data for data processing and analysis."
+              text="A software solution for cleaning, refining and transforming raw data for data processing and analysis. Users are able to ensure data accuracy and manipulate tools to enrich their data."
               tech="React, Redux, Apache Spark, Java Jersey, MySQL"
-              label="DataPrep"
+              label="Smart Analytics"
               path="/DataPrep"
             />
             <CardItem
@@ -34,7 +34,7 @@ const Projects = () => {
           <ul className="cards__items">
             <CardItem
               src="images/project-4.png"
-              text="Developed and unit tested a 2D game project in a team of 4 for my software engineer course"
+              text="A top-down 2D stealth game where users avoid prey and traps to collect all rewards and bonus rewards before defeating the game"
               tech="Java, Java Swing, Maven, JUnit5"
               label="Cheezy Nibbles"
               path="https://github.com/Dennayz/CMPT276"

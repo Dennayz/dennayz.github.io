@@ -20,7 +20,7 @@ const CardItem = (props) => {
     </>
   );
 
-  if (props.label === "DataPrep") {
+  if (props.path === "/DataPrep") {
     return (
       <>
         <li className="cards__item">
