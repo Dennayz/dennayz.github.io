@@ -55,7 +55,7 @@ export const backendIcons = [
   {
     src: "https://img.icons8.com/officel/96/000000/mysql.png",
     alt: "mysql logo",
-    description: "MYSQL",
+    description: "MySQL",
   },
   {
     src: "https://img.icons8.com/color/96/000000/postgreesql.png",
