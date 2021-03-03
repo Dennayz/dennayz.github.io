@@ -38,6 +38,9 @@
 }
 
 @media screen and (max-width: 960px) {
+  .contact-container {
+    padding: 1rem;
+  }
   .form-control {
     float: none;
     margin-right: 0;
