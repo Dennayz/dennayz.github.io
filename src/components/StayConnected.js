@@ -5,7 +5,7 @@ import { animateScroll as scroll } from "react-scroll";
 
 const StayConnected = () => {
   return (
-    <div className="stay-connected-container">
+    <footer className="stay-connected-container">
       <h2 className="stay-connected-header">Stay Connected</h2>
       <div className="social-media-container-bottom">
         <ul className="social-media-list-bottom">
@@ -41,7 +41,7 @@ const StayConnected = () => {
           <i className="fa fa-angle-double-up"></i>
         </div>
       </div>
-    </div>
+    </footer>
   );
 };
 
