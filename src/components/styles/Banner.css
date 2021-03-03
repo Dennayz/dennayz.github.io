@@ -58,6 +58,12 @@
   margin-left: 10rem;
 }
 
+@media screen and (min-width: 2880px) {
+  .banner-container {
+    margin-left: 30rem;
+  }
+}
+
 @media screen and (max-width: 1280px) {
   .animate-container {
     display: none;
