@@ -34,7 +34,7 @@ const Banner = () => {
                   "Programmer",
                   "Developer",
                   "Learner",
-                  "Hard Worker",
+                  "Sleeper",
                 ]}
                 typeSpeed={80}
                 backSpeed={80}
