@@ -1,10 +1,10 @@
-.about-container {
-  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+.aboutme-container {
   padding: 4rem;
-  text-align: center;
+  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  color: white;
 }
 
-.about-header {
+.aboutme-header {
   letter-spacing: 3px;
   text-align: center;
   font-size: 3rem;
@@ -12,95 +12,58 @@
   color: white;
 }
 
-.about-container-info {
-  color: white;
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-  max-width: 1120px;
-  width: 50%;
-  display: inline-flex;
-  flex: 1;
-}
-
-.about-container-info > h2 {
-  letter-spacing: 3px;
-  padding-bottom: 2rem;
-}
-
-.about-container-info > p {
-  padding-top: 1rem;
-  text-align: center;
-  font-size: 1rem;
-  margin: 0 1rem;
-  padding-bottom: 2rem;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  line-height: 1.5;
-}
-
-.fa-camera-retro,
-.fa-code,
-.fa-spotify,
-.fa-book-reader,
-.fa-basketball-ball,
-.fa-hamburger {
-  margin-left: 0.5rem;
-  font-size: 2.3rem;
-}
-
-.small-interests-list {
-  padding-top: 55px;
-  text-align: center;
-}
-.skills-container,
-.small-interests-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+.aboutme-container-wrapper {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  grid-gap: 50px;
+  max-width: 860px;
+  margin: 0 auto;
   position: relative;
 }
 
-.skills-icon,
-.small-interests-icon {
+.aboutme-container-info {
+  max-width: 460px;
+}
+
+.backend-list,
+.frontend-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(140px, 200px));
+  padding: 0px;
+  margin: 20px 0px 0px;
+  list-style: none;
+  overflow: hidden;
+}
+
+.skill-item::before {
+  content: "▹";
+  color: #97ffff;
+}
+
+.skill-item {
   display: inline-flex;
-  margin: 1em;
+  margin-bottom: 10px;
 }
 
-.icon-description {
-  visibility: hidden;
-  display: block;
+.skill {
+  padding-left: 5px;
 }
 
-.icons8-link {
-  color: white;
-}
-
-.skills-icon:hover .icon-description {
-  cursor: pointer;
-  transform: scale(1.2);
-  transition: all 0.2s ease-out;
-  visibility: visible;
-}
-
-@media screen and (max-width: 1679px) {
-  .about-container-info {
-    padding-top: 3rem;
-    float: none;
-    margin-right: 0;
-    width: 100%;
-    border: 0;
-    padding-bottom: 3rem;
-    border-bottom: 2px solid #97ffff;
+@media screen and (max-width: 760px) {
+  .aboutme-container {
+    padding: 2rem;
   }
-
-  .about-container-info:last-child {
-    border-bottom: none;
+  .aboutme-container-wrapper {
+    display: grid;
+    grid-template-columns: none;
+  }
+  .aboutme-container-info {
+    max-width: 660px;
   }
 }
 
-@media screen and (max-width: 383px) {
-  .skills-icon {
-    margin: 0;
+@media screen and (max-width: 350px) {
+  .aboutme-container {
+    padding: 1rem;
   }
 }
