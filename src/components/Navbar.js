@@ -51,7 +51,7 @@ const Navbar = () => {
                 className="nav-links"
                 onClick={closeMobileMenu}
                 smooth={true}
-                duration={1000}
+                duration={500}
                 activeClass="active"
               >
                 About Me
@@ -65,7 +65,7 @@ const Navbar = () => {
                 className="nav-links"
                 onClick={closeMobileMenu}
                 smooth={true}
-                duration={1000}
+                duration={500}
                 activeClass="active"
               >
                 Projects
@@ -79,7 +79,7 @@ const Navbar = () => {
                 className="nav-links"
                 onClick={closeMobileMenu}
                 smooth={true}
-                duration={1000}
+                duration={500}
                 activeClass="active"
               >
                 Algorithms
@@ -93,7 +93,7 @@ const Navbar = () => {
                 className="nav-links"
                 onClick={closeMobileMenu}
                 smooth={true}
-                duration={1000}
+                duration={500}
                 activeClass="active"
               >
                 Contact

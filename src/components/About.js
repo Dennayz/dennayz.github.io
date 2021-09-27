@@ -13,15 +13,32 @@ const About = () => {
           <p>
             Hello, my name is Dennis. I am a computer science undergraduate
             student at{" "}
-            <span style={{ color: "#97ffff" }}>Simon Fraser University</span>.
-            I'm looking to graduate in June 2022. I for one will admit that I am
-            not very good at school or academics, but I do consider myself a
-            very curious person. I am currently looking for an{" "}
+            <a
+              className="about-info-link"
+              href="https://www.sfu.ca/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span style={{ color: "#97ffff" }}>Simon Fraser University</span>
+            </a>
+            . I'm looking to graduate in June 2023. I am currently a software
+            engineer intern at{" "}
+            <a
+              className="about-info-link"
+              href="https://www.covalenthq.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span style={{ color: "#97ffff" }}>Covalent</span>
+            </a>
+            , a blockchain start-up company that provides users enriched
+            blockchain data. I will be looking for an{" "}
             <span style={{ color: "#97ffff" }}>
-              internship specializing in full-stack development
+              internship specializing in full-stack development in 2022
             </span>{" "}
-            and aspire to become a software engineer. I want to learn more about
-            artificial intelligence and data science with visualizations.
+            and hope to continue to accumulate my professional experience. My
+            main focus is to learn more about artificial intelligence and data
+            science with visualizations.
           </p>
           <br />
           <p>
