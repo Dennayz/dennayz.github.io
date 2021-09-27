@@ -13,8 +13,8 @@ const Contact = () => {
       <div className="contact-container-info">
         <p className="contact-info">
           Please feel free to contact me about any new career opportunities or
-          just anything in general. If you have any questions or just wanting to
-          have a chat, please shoot me an email!
+          anything in general. If you also have any questions or just want to
+          have a chat, please shoot me an email as well!
         </p>
         <br />
         <br />
