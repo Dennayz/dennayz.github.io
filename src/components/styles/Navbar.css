@@ -77,6 +77,7 @@
   cursor: pointer;
   transform: scale(1.1);
   transition: all 0.2s ease-out;
+  color: #97ffff;
 }
 
 .fa-bars {

@@ -49,6 +49,17 @@
   padding-left: 5px;
 }
 
+.about-info-link:link {
+  text-decoration: none;
+}
+
+.about-info-link:hover {
+  text-decoration: underline;
+  color: #64ffda;
+  opacity: 0.9;
+  transition: var(--transition);
+}
+
 @media screen and (max-width: 760px) {
   .aboutme-container {
     padding: 2rem;
