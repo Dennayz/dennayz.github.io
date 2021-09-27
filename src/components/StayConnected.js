@@ -41,6 +41,9 @@ const StayConnected = () => {
           <i className="fa fa-angle-double-up"></i>
         </div>
       </div>
+      <div className="updated-at">
+        <span>© 2021 Dennis Zhang</span>
+      </div>
     </footer>
   );
 };

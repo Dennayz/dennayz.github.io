@@ -12,13 +12,13 @@
 }
 
 .bottom-to-top {
-  padding: 2rem;
+  padding: 2rem 2rem 5rem 2rem;
   text-align: center;
 }
 
-.go-top {
+/* .go-top {
   cursor: pointer;
-}
+} */
 
 .go-top:hover {
   transform: scale(1.2);
@@ -30,4 +30,10 @@
   margin-left: 0.5rem;
   font-size: 2.3rem;
   color: white;
+  cursor: pointer;
+}
+
+.updated-at {
+  padding: 2rem 2rem 0.5rem 2rem;
+  color: #ccd6f6;
 }
